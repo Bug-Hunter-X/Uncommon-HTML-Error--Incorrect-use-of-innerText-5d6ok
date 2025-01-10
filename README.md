@@ -1,0 +1,3 @@
+This repository demonstrates a common, yet often overlooked, issue in HTML when attempting to access the textual content of an element using JavaScript. Specifically, it highlights the difference and potential inconsistencies between using `innerText` and `textContent`.
+
+The `bug.html` file showcases the incorrect use of `innerText`, which might lead to unexpected results in some browsers due to discrepancies in how browsers handle this property with some HTML elements. The `bugSolution.html` file provides the correct solution, using `textContent`, which is a more reliable method for retrieving the text content of an element regardless of its complexity or browser type.
